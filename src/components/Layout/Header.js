@@ -9,7 +9,7 @@ const Header = (props) => {
     <React.Fragment>
         <header className={classes.header}>
             <h1>Meals Menu</h1>
-            <HeaderCartButton/>
+            <HeaderCartButton onClick={props.onShowCart}/>
         </header>
         <div className = {classes['main-image']}>
             <img src={mealsImage} alt="table of meals"/>
@@ -18,4 +18,4 @@ const Header = (props) => {
   )
 }
 
-export default Header
+export default Header;
