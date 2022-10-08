@@ -12,6 +12,27 @@
     font-weight: bold;
     
   }
+
+  @media (max-width: 768px) {
+    .button {
+      width: 8rem;
+      height: 3rem;
+      padding: 0;
+      justify-content: center;
+    }
+  
+
+    .my-cart {
+      display: none;
+    }
+
+    .badge{
+      /* width: 1px;
+      height: 5px; */
+      /* padding: 0;
+      margin-left: 0; */
+    }
+  }
   
   .button:hover,
   .button:active {
